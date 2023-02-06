@@ -1,0 +1,49 @@
+.container{
+    border: 3px solid black;
+    height: 500px;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 200px;
+    background-color: rgb(6, 6, 247)
+}
+#display{
+    border: 1px solid black;
+    background-color: white;
+    height: 70px;
+    text-align: right;
+    line-height: 50px;
+    font-size: 25px;
+    color: rgb(244, 2, 2);
+    border-radius: 50px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
+}
+.buttons div{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.buttons{
+    /* border:1px solid black; */
+    line-height: 70px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#clear{
+    color: white;
+    background-color:rebeccapurple;
+}
+#del{
+    color: white;
+    background-color:red;
+}
+#equals{
+    background-color: rebeccapurple;
+    color: white;
+}
+.button:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
